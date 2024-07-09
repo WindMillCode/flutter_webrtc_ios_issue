@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Flutter 0 IOS",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main.dart",
+      "codeLens": {
+        "for": ["run-file", "debug-file"],
+        "path": "lib/main.dart",
+        "title": "${debugType} main"
+      },
+      "args": [
+        // "--flavor",
+        // "preview",
+      ],
+      "vmAdditionalArgs": ["--scan","--stacktrace"],
+      "deviceId": "78163E67-4BAE-4774-8B4C-1B899D60297E"
+    },
+    {
+      "name": "Flutter 1 IOS",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main.dart",
+      "codeLens": {
+        "for": ["run-file", "debug-file"],
+        "path": "lib/main.dart",
+        "title": "${debugType} main"
+      },
+      "args": [
+        // "--flavor",
+        // "preview",
+      ],
+      "vmAdditionalArgs": ["--scan","--stacktrace"],
+      "deviceId": "06465E9B-A724-4738-9E78-1E4288D331D3"
+    }
+  ],
+  "compounds": [
+
+  ]
+}
