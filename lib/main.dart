@@ -7,7 +7,7 @@ void main() async {
   await peer.init();
   print(peer.id);
   // connect first grab the id then on the receiver connect and debugger the negotiator from windmillcode_peerdart
-  // var conn = peer.connect("1c4914b7-9d2e-4391-bff6-c61a47638f18");
+  // var conn = peer.connect([PEER ID FROM SENDER HERE]);
   runApp(const MainApp());
 }
 
